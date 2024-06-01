@@ -1,0 +1,172 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif !important;
+}
+body{
+    background-image: url('photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding:20px 10%;
+   background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    user-select: none;
+    font-size:32px;
+    color:#1d205f;
+    text-decoration: none;
+    font-weight: 700;
+     filter: drop-shadow(0 0 5px #09001d ); 
+}
+.navbar a{
+    font-size: 18px;
+    color: #252976;
+    text-decoration: none;
+    font-weight: 500;
+     margin-left:35px ;
+    transition: .3s ; 
+}
+.navbar a:hover, .navbar{
+    color: rgb(27, 76, 191);
+}
+.main{
+    min-height: 100hv; 
+     background-size: cover;
+    background-position: center; 
+}
+.home{
+    height: 100hv;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-content{
+    max-width: 600px;
+    display: flex;
+    margin: 200px;
+    align-items: center;
+    flex-direction: column;
+}
+.home-content h1{
+    font-size: 78px;
+    font-weight: 700;
+    text-shadow:0 0 10px rgba(0, 0, 0, .3);
+}
+.container{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background: linear-gradient(90deg, #023c7b88, #a7bed0);
+    border-radius: 50px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, .3);
+    padding: 60px;
+    align-items: center;
+    overflow: hidden;
+}
+.form-title{
+    font-size: 2em;
+    right: -10px;
+    color: #eeeff2;
+}
+.main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self:space-btween;
+    padding: 20px 0;
+}
+.user-input-box{
+display: flex;
+flex-wrap: wrap;
+width: 60%;
+padding-bottom: 0;
+}
+.user-input-box label{
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    margin: 15px 0;
+}
+.user-input-box input{
+    width: 500%;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #e2e7eee3;
+    outline: none;
+    border-radius: 40px;
+    font-size: 1em;
+    padding: 0 5px 0 20px;
+}
+.gender-title{
+    color:white;
+    font-size:24px;
+    font-weight:600;
+    border-bottom: 1px solid white;
+}
+.gender-category{
+    margin: 15px 0;
+    color: white;
+}
+.gender-category label{
+    padding : 0 20px 0 5px;
+}
+.gender-category label,
+.gender-category input,
+.form-submit-btn input{
+    cursor: pointer;
+}
+.form-submit-btn input{
+    margin-top: 40px;
+}
+.form-submit-btn input{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    font-size:20px;
+    padding:10px;
+    border: none;
+    border-radius: 3px ;
+}
+.form-submit-btn input:hover{
+    background: rgba(85, 120, 184, 0.7);
+    color:aliceblue;
+}
+
+button {
+    width: 60%;
+    height: 40px;
+    background: #f2f2f2;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #397db5;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 22px;
+}
+
+::placeholder {
+    color:#d2e0ec;
+    opacity: 1; /* Firefox */
+  }

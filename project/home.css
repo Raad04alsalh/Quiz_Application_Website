@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#big-title{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #1d205f;
+    user-select: none;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 50px;
+}
+body{
+    /* color:#fff; */
+    background-image: url('photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding:20px 10%;
+   background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    user-select: none;
+    font-size:32px;
+    color:#1d205f;
+    text-decoration: none;
+    font-weight: 700;
+     filter: drop-shadow(0 0 5px #09001d ); 
+}
+.navbar a{
+    font-size: 18px;
+    color: #252976;
+    text-decoration: none;
+    font-weight: 500;
+     margin-left:35px ;
+    transition: .3s ; 
+}
+.navbar a:hover, .navbar{
+    color: rgb(27, 76, 191);
+}
+.main{
+    min-height: 100hv; 
+     background-size: cover;
+    background-position: center; 
+}
+.home{
+    height: 100hv;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-content{
+    max-width: 600px;
+    display: flex;
+    margin: 200px;
+    align-items: center;
+    flex-direction: column;
+}
+.home-content h1{
+    font-size: 78px;
+    font-weight: 700;
+    text-shadow:0 0 10px rgba(0, 0, 0, .3);
+}
+.star-btn{
+    background:  rgba(19, 96, 168, 0.684);
+    width: 200px;
+    height: 50px;
+    border: #09001d;
+    border-radius: 30px;
+    color: aliceblue;
+    font: 1em sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.star-btn:hover{
+    background-color: lightskyblue;
+    color: #1d205f;
+    font-size: larger;
+    transition: .3s ;
+}
